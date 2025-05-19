@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Saara Crackers</title>
+  <link rel="stylesheet" href="css/index.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+</head>
+<body>
+  <nav>
+    <ul class="sidebar">
+      <li onclick="hideSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="Aboutus.html">About Us</a></li>
+      <li><a href="ourproducts.html">Our Products</a></li>
+      <li><a href="safety.html">Safety</a></li>
+      <li><a href="contactus.html">Contact Us</a></li>
+      <li><a href="https://drive.google.com/file/d/1R8gCxcoAT3HDlZCcI_7TQirdaSLo81NK/view?usp=sharing"><button class="btn-price">Price List</button></a></li>
+    </ul>
+    <ul>
+      <li><a href="#"><img src="images/logo.png" alt="Saara Crackers Logo"></a></li>
+      <li class="hideOnMobile"><a href="index.html">Home</a></li>
+      <li class="hideOnMobile"><a href="Aboutus.html">About Us</a></li>
+      <li class="hideOnMobile"><a href="ourproducts.html">Our Products</a></li>
+      <li class="hideOnMobile"><a href="safety.html">Safety</a></li>
+      <li class="hideOnMobile"><a href="contactus.html">Contact Us</a></li>
+      <li class="hideOnMobile"><a href="https://drive.google.com/file/d/1R8gCxcoAT3HDlZCcI_7TQirdaSLo81NK/view?usp=sharing"><button class="btn-price">Price List</button></a></li>
+      <li class="menu-button" onclick="showSidebar()"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+    </ul>
+  </nav>
+  <div class="container">
+    <img src="images/home-bg.jpg" style="height: 400px; width: 100%; margin-top: 0px;" alt="Home Background">
+    <h1 style="margin: 10px;">New Arrivals<hr></h1>
+    <!-- Slider Section -->
+    <div class="slider-container">
+      <button class="slider-btn prev-btn" aria-label="Previous Product Slide">❮</button>
+      <div class="slider">
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="2 Kuruv Crackers" loading="lazy">
+            <h3>2 Kuruv</h3>
+            <p>₹20 <span class="original-price">₹40</span></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="2 Lakshmi Crackers" loading="lazy">
+            <h3>2 Lakshmi</h3>
+            <p>₹30 <span class="original-price">₹60</span></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="2 Hercules Crackers" loading="lazy">
+            <h3>2 Hercules</h3>
+            <p>₹30 <span class="original-price">₹60</span></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="Atom Bomb Box" loading="lazy">
+            <h3>Atom Bomb Box</h3>
+            <p>₹80 <span class="original-price">₹160</span></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="2 Kuruv Crackers" loading="lazy">
+            <h3>2 Kuruv</h3>
+            <p>₹20 <span class="original-price">₹40</span></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="2 Kuruv Crackers" loading="lazy">
+            <h3>2 Kuruv</h3>
+            <p>₹20 <span class="original-price">₹40</span></p>
+          </div>
+        </div>
+        <div class="slide">
+          <div class="product-card">
+            <span class="discount">20%</span>
+            <img src="https://picsum.photos/200" alt="2 Kuruv Crackers" loading="lazy">
+            <h3>2 Kuruv</h3>
+            <p>₹20 <span class="original-price">₹40</span></p>
+          </div>
+        </div>
+      </div>
+      <button class="slider-btn next-btn" aria-label="Next Product Slide">❯</button>
+    </div>
+    <hr>
+    <!-- Testimonial Slider Section -->
+    <h1 class="testimonial-heading">Our Testimonials</h1>
+    <div class="testimonial-slider-wrapper">
+      <button class="testimonial-btn testimonial-prev-btn" aria-label="Previous Testimonial Slide">❮</button>
+      <div class="testimonial-slider">
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <img src="https://alicezaslavsky.com/wp-content/uploads/Alice20portrait.jpg" alt="John Doe" class="user-image" loading="lazy">
+            <div class="stars">★★★★★</div>
+            <h3>John Doe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <img src="https://alicezaslavsky.com/wp-content/uploads/Alice20portrait.jpg" alt="Alina" class="user-image" loading="lazy">
+            <div class="stars">★★★★★</div>
+            <h3>Alina</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <img src="https://alicezaslavsky.com/wp-content/uploads/Alice20portrait.jpg" alt="John Doe" class="user-image" loading="lazy">
+            <div class="stars">★★★★★</div>
+            <h3>John Doe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+        </div>
+        <div class="testimonial-slide">
+          <div class="testimonial-card">
+            <img src="https://alicezaslavsky.com/wp-content/uploads/Alice20portrait.jpg" alt="John Doe" class="user-image" loading="lazy">
+            <div class="stars">★★★★★</div>
+            <h3>John Doe</h3>
+            <p>Lorem ipsum dolor sit amet consectetur adipiscing elit.</p>
+          </div>
+        </div>
+      </div>
+      <button class="testimonial-btn testimonial-next-btn" aria-label="Next Testimonial Slide">❯</button>
+    </div>
+    <hr>
+    <center><h1>Why Choose Saara Crackers</h1>
+      <div class="why-choose">
+        <div class="frst-row">
+          <div class="card">
+            <h1 style="color: black; font-weight: 400; margin-bottom: 5px;">Quality</h1>
+            <div class="para">
+              <img width="60" height="60" src="https://img.icons8.com/color/48/prize.png" alt="Quality Badge" loading="lazy">
+              <p>We use only the highest quality materials in our Diwali crackers.</p>
+            </div>
+          </div>
+          <div class="card">
+            <h1 style="color: black; font-weight: 400; margin-bottom: 5px;">Colorful</h1>
+            <div class="para">
+              <img width="96" height="96" src="https://img.icons8.com/external-goofy-flat-kerismaker/96/external-Fire-Cracker-birthday-party-goofy-flat-kerismaker.png" alt="Colorful Firecracker" loading="lazy">
+              <p>Offering the best service for memorable Diwali celebrations.</p>
+            </div>
+          </div>
+        </div>
+        <div class="scnd-row">
+          <div class="card">
+            <h1 style="color: black; font-weight: 400; margin-bottom: 5px;">Safety</h1>
+            <div class="para">
+              <img width="80" height="80" src="https://img.icons8.com/color/48/security-checked--v1.png" alt="Safety Icon" loading="lazy">
+              <p>Our crackers are safe and made from fine-quality materials.</p>
+            </div>
+          </div>
+          <div class="card">
+            <h1 style="color: black; font-weight: 400; margin-bottom: 5px;">Genuine Price</h1>
+            <div class="para">
+              <img width="70" height="70" src="https://img.icons8.com/color/48/price-tag-usd--v1.png" alt="Price Tag" loading="lazy">
+              <p>Premium Diwali crackers at accessible prices.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </center>
+    <hr>
+    <center><h1>Brands We Handle</h1></center>
+<div class="slideshow-brand-container">
+  <div class="slideshow">
+    <img src="" alt="image-1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-3">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-5">
+    <!-- Duplicate images for seamless looping -->
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-1">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-2">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-3">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-4">
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbsEfOH2G5jkn1oPO46plFnI1zNw8-eDwMEQ&s" alt="image-5">
+  </div>
+</div>
+<hr>
+
+    <center><h1>Shop Our Products</h1> </center>
+    <div class="products">
+      <div class="category">
+        <div class="circle">
+          <img src="images/auto-bomb.png" alt="Auto Bomb">
+        </div>
+        <button>Auto Bomb</button>
+      </div>
+      <div class="category">
+        <div class="circle">
+          <img src="images/auto-bomb.png" alt="Gift Box">
+        </div>
+        <button>Gift Box</button>
+      </div>
+      <div class="category">
+        <div class="circle">
+          <img src="images/auto-bomb.png" alt="Chakars">
+        </div>
+        <button>Chakars</button>
+      </div>
+      <div class="category">
+        <div class="circle">
+          <img src="images/auto-bomb.png" alt="Sparkles">
+        </div>
+        <button>Sparkles</button>
+      </div>
+    </div>
+    <footer>
+      <div class="footer-container">
+        <div class="abt-saara">
+          <h2>Saara Crackers</h2>
+          <p>We provide you the best and original Sivakasi crackers at a very reasonable price. Saara Crackers is a leading supplier of crackers and fireworks based in Sivakasi, Tamilnadu.</p>
+        </div>
+        <div class="quick-links">
+          <h2>Quick Links</h2>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="ourproducts.html">Our Products</a></li>
+            <li><a href="safety.html">Safety</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="contact-maps-wrapper">
+          <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p><i class="fa-solid fa-location-dot fa-beat fa-lg" style="color: #f00000;"></i> Address: 2/582 Rathna colony Naranapuram-parapatti, road(Naranapuram)Sivakasi</p>
+            <p><i class="fa-solid fa-envelope fa-beat fa-lg" style="color: #f00000;"></i> Email: <a href="mailto:saaracrackers@gmail.com">saaracracker@gmail.com</a></p>
+            <p><i class="fa-solid fa-phone fa-beat fa-lg" style="color: #f00000;"></i> Phone: <a href="tel:+919944968198">9944968198</a></p>
+          </div>
+          <div class="maps">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d62969.996108265455!2d77.75142297665437!3d9.454264267293368!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3b06cee43d812d0d%3A0x8ce12e9dcdaa2a2c!2sSivakasi%2C%20Tamil%20Nadu!5e0!3m2!1sen!2sin!4v1742607975881!5m2!1sen!2sin" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2025 Saara Crackers. All Rights Reserved.</p>
+      </div>
+    </footer>
+  </div>
+  <script src="/index.js"></script>
+</body>
+</html>

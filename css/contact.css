@@ -1,0 +1,274 @@
+/* Contact Page Styles */
+.contact-main {
+    padding: 120px 20px 60px;
+    max-width: 1400px;
+    margin: 0 auto;
+}
+
+.contact-header {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.contact-header h1 {
+    font-size: 2.5rem;
+    color: #1a1a2e;
+    margin-bottom: 15px;
+    position: relative;
+    display: inline-block;
+}
+
+.contact-header h1::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: linear-gradient(to right, #ff6b6b, #ff8e53);
+    border-radius: 2px;
+}
+
+.contact-header p {
+    color: #666;
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 40px;
+    margin-bottom: 60px;
+}
+
+/* Contact Info Cards */
+.contact-info-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.contact-card {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+}
+
+.contact-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 15px 35px rgba(0, 0, 0, 0.15);
+}
+
+.contact-card i {
+    font-size: 2rem;
+    color: #ff6b6b;
+    margin-bottom: 15px;
+}
+
+.contact-card h3 {
+    color: #1a1a2e;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+.contact-card p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.contact-card a {
+    color: #666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-card a:hover {
+    color: #ff6b6b;
+}
+
+/* Contact Form */
+.contact-form-section {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.contact-form {
+    display: grid;
+    gap: 20px;
+}
+
+.form-group {
+    position: relative;
+}
+
+.form-group input,
+.form-group select,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 2px solid #eee;
+    border-radius: 8px;
+    font-size: 1rem;
+    color: #333;
+    background: transparent;
+    transition: all 0.3s ease;
+}
+
+.form-group textarea {
+    height: 150px;
+    resize: none;
+}
+
+.form-group label {
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #666;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.form-group textarea + label {
+    top: 15px;
+    transform: none;
+}
+
+.form-group input:focus,
+.form-group select:focus,
+.form-group textarea:focus {
+    border-color: #ff6b6b;
+    box-shadow: 0 0 0 3px rgba(255, 107, 107, 0.1);
+}
+
+.form-group input:focus + label,
+.form-group select:focus + label,
+.form-group textarea:focus + label,
+.form-group input:not(:placeholder-shown) + label,
+.form-group textarea:not(:placeholder-shown) + label {
+    top: -10px;
+    left: 10px;
+    font-size: 0.8rem;
+    padding: 0 5px;
+    background: white;
+    color: #ff6b6b;
+}
+
+.submit-btn {
+    background: linear-gradient(135deg, #ff6b6b, #ff8e53);
+    color: white;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+.submit-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(255, 107, 107, 0.2);
+}
+
+.submit-btn:active {
+    transform: translateY(0);
+}
+
+/* Map Section */
+.map-section {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    height: 400px;
+}
+
+.map-section iframe {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+/* Form Message Styles */
+.form-message {
+    margin-bottom: 20px;
+    padding: 15px;
+    border-radius: 8px;
+    display: none;
+}
+
+.form-message.success {
+    display: block;
+    background-color: #d4edda;
+    color: #155724;
+    border: 1px solid #c3e6cb;
+}
+
+.form-message.error {
+    display: block;
+    background-color: #f8d7da;
+    color: #721c24;
+    border: 1px solid #f5c6cb;
+}
+
+/* Responsive Design */
+@media (max-width: 1024px) {
+    .contact-container {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-info-section {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .contact-main {
+        padding: 100px 15px 40px;
+    }
+
+    .contact-header h1 {
+        font-size: 2rem;
+    }
+
+    .contact-info-section {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-form-section {
+        padding: 30px;
+    }
+
+    .map-section {
+        height: 300px;
+    }
+}
+
+@media (max-width: 480px) {
+    .contact-header h1 {
+        font-size: 1.8rem;
+    }
+
+    .contact-card {
+        padding: 20px;
+    }
+
+    .form-group input,
+    .form-group select,
+    .form-group textarea {
+        padding: 12px;
+    }
+
+    .submit-btn {
+        padding: 12px 25px;
+    }
+} 

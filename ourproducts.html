@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Safety guidelines for using Saara Crackers fireworks responsibly.">
+    <title>Safety - Saara Crackers</title>
+    <link rel="stylesheet" href="css/ourproducts.css">
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <nav>
+        <ul class="sidebar" role="navigation">
+            <li onclick="hideSidebar()" aria-label="Close menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="m249 849-42-42 231-231-231-231 42-42 231 231 231-231 42 42-231 231 231 231-42 42-231-231-231 231Z"/></svg></a></li>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Aboutus.html">About Us</a></li>
+            <li><a href="ourproducts.html">Our Products</a></li>
+            <li><a href="safety.html">Safety</a></li>
+            <li><a href="contactus.html">Contact Us</a></li>
+            <li><a href="https://drive.google.com/file/d/1R8gCxcoAT3HDlZCcI_7TQirdaSLo81NK/view?usp=sharing"><button class="btn-price">Price List</button></a></li>
+        </ul>
+        <ul role="navigation">
+            <li><a href="#"><img src="/images/logo.png" alt="Saara Crackers Logo"></a></li>
+            <li class="hideOnMobile"><a href="index.html">Home</a></li>
+            <li class="hideOnMobile"><a href="Aboutus.html">About Us</a></li>
+            <li class="hideOnMobile"><a href="ourproducts.html">Our Products</a></li>
+            <li class="hideOnMobile"><a href="safety.html">Safety</a></li>
+            <li class="hideOnMobile"><a href="contactus.html">Contact Us</a></li>
+            <li class="hideOnMobile"><a href="https://drive.google.com/file/d/1R8gCxcoAT3HDlZCcI_7TQirdaSLo81NK/view?usp=sharing"><button class="btn-price">Price List</button></a></li>
+            <li class="menu-button" onclick="showSidebar()" aria-label="Open menu"><a href="#"><svg xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 96 960 960" width="26"><path d="M120 816v-60h720v60H120Zm0-210v-60h720v60H120Zm0-210v-60h720v60H120Z"/></svg></a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <div class="header">
+            <input type="text" id="searchBar" placeholder="Search for an item..." onkeyup="searchCrackers()">
+            <a href="cart.html" class="cart-link">View Cart</a>
+        </div>
+        <div id="crackersList" class="crackers-list">
+        </div>
+        <div id="pagination" class="pagination">
+        </div>
+    </div>
+    <script src="our-products.js"></script>
+    </body>

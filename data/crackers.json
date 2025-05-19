@@ -1,0 +1,422 @@
+[
+  {
+    "name": "2 3/4 Kuruvi",
+    "description": "Small sound crackers that produce a sharp burst, perfect for festive celebrations.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 9.80
+  },
+  {
+    "name": "3 1/2 Lakshmi",
+    "description": "Medium-sized sound crackers delivering a loud pop for Diwali festivities.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 13.60
+  },
+  {
+    "name": "4 * Lakshmi",
+    "description": "Larger sound crackers with a powerful burst, ideal for vibrant celebrations.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 20.20
+  },
+  {
+    "name": "4 * Lakshmi (10 ply)",
+    "description": "Enhanced 10-ply sound crackers for an intense, resonant explosion.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 26.60
+  },
+  {
+    "name": "4 * Gold Lakshmi",
+    "description": "Premium sound crackers with a golden effect, adding sparkle to the burst.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 24.80
+  },
+  {
+    "name": "Two Sound",
+    "description": "Dual-burst crackers that produce two consecutive pops for added excitement.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 29.60
+  },
+  {
+    "name": "28 Giant",
+    "description": "Large firecrackers delivering a deep, booming sound for grand celebrations.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 39.00
+  },
+  {
+    "name": "56 Giant",
+    "description": "Extra-large firecrackers with a powerful explosion, perfect for major events.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 74.80
+  },
+  {
+    "name": "Ground chakkara big(25 pcs)",
+    "description": "Spinning ground fireworks that create a dazzling circular light show.",
+    "image": "",
+    "quantity": 1,
+    "price": 29.60
+  },
+  {
+    "name": "Ground chakkara big(10 pcs)",
+    "description": "Larger pack of spinning ground fireworks for a spectacular display.",
+    "image": "",
+    "quantity": 1,
+    "price": 34.40
+  },
+  {
+    "name": "Ground chakkara Ashoka",
+    "description": "Ashoka-themed spinning fireworks with vibrant rotating sparks.",
+    "image": "",
+    "quantity": 1,
+    "price": 39.00
+  },
+  {
+    "name": "Ground chakkara Special",
+    "description": "Special edition spinning fireworks with enhanced visual effects.",
+    "image": "",
+    "quantity": 1,
+    "price": 59.20
+  },
+  {
+    "name": "Ground chakkara Deluxe",
+    "description": "Deluxe spinning fireworks offering a premium rotating light display.",
+    "image": "",
+    "quantity": 1,
+    "price": 109.20
+  },
+  {
+    "name": "Flowerpot small",
+    "description": "Small fountain fireworks emitting colorful sparks upwards.",
+    "image": "",
+    "quantity": 1,
+    "price": 46.80
+  },
+  {
+    "name": "Flowerpot Big",
+    "description": "Large fountain fireworks with a bright, colorful spark display.",
+    "image": "",
+    "quantity": 1,
+    "price": 54.60
+  },
+  {
+    "name": "Flowerpot Special",
+    "description": "Special fountain fireworks with unique spark patterns.",
+    "image": "",
+    "quantity": 1,
+    "price": 70.20
+  },
+  {
+    "name": "Flowerpot Ashoka",
+    "description": "Ashoka-themed fountain fireworks with vibrant spark effects.",
+    "image": "",
+    "quantity": 1,
+    "price": 84.20
+  },
+  {
+    "name": "Flowerpot Deluxe",
+    "description": "Deluxe fountain fireworks emitting colorful sparks upwards, lighting up the sky with delight.",
+    "image": "",
+    "quantity": 1,
+    "price": 93.60
+  },
+  {
+    "name": "Flowerpot superdeluxe(2 pcs)",
+    "description": "Super deluxe fountain fireworks with enhanced spark intensity.",
+    "image": "",
+    "quantity": 1,
+    "price": 106.00
+  },
+  {
+    "name": "O-Yolo Super (2pcs)",
+    "description": "Premium fountain fireworks with a spectacular spark show.",
+    "image": "",
+    "quantity": 1,
+    "price": 156.00
+  },
+  {
+    "name": "Lucky",
+    "description": "Lucky-themed fountain fireworks for a vibrant display.",
+    "image": "",
+    "quantity": 1,
+    "price": 134.20
+  },
+  {
+    "name": "Flowerpot Colourkoti",
+    "description": "Multi-colored fountain fireworks for a dazzling effect.",
+    "image": "",
+    "quantity": 1,
+    "price": 265.20
+  },
+  {
+    "name": "Century 100",
+    "description": "String of 100 firecrackers for continuous popping excitement.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 50.00
+  },
+  {
+    "name": "Century 200",
+    "description": "String of 200 firecrackers for extended festive bursts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 101.40
+  },
+  {
+    "name": "Century 1K",
+    "description": "String of 1000 firecrackers for a long-lasting sound display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 234.00
+  },
+  {
+    "name": "Century 2K",
+    "description": "String of 2000 firecrackers for an epic celebration.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 452.40
+  },
+  {
+    "name": "Century 5K",
+    "description": "String of 5000 firecrackers for a grand, continuous explosion.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 1170.00
+  },
+  {
+    "name": "Century 10K",
+    "description": "String of 10000 firecrackers for an ultimate festive finale.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 2574.00
+  },
+  {
+    "name": "1 1/2 Twinkling star",
+    "description": "Small handheld sparklers creating twinkling light effects.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 39.00
+  },
+  {
+    "name": "4 tt Twinkling star",
+    "description": "Larger handheld sparklers with enhanced twinkling sparks.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 53.00
+  },
+  {
+    "name": "100 Bijli-Red Gold",
+    "description": "Small firecrackers with red and gold effects for quick bursts.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 31.20
+  },
+  {
+    "name": "100 Bijli-Stripped",
+    "description": "Small striped firecrackers for rapid, colorful pops.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/8/8b/Firecrackers.jpg",
+    "quantity": 1,
+    "price": 46.80
+  },
+  {
+    "name": "1000 K Mega Pencil (2 Pcs./Box)",
+    "description": "Large pencil-shaped sparklers for a prolonged sparkling display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 190.40
+  },
+  {
+    "name": "Colour Smoke",
+    "description": "Smoke bombs releasing vibrant colored clouds for visual effects.",
+    "image": "",
+    "quantity": 1,
+    "price": 132.60
+  },
+  {
+    "name": "Lolipop",
+    "description": "Lollipop-shaped sparklers for a fun, colorful light show.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 241.80
+  },
+  {
+    "name": "7 cm Electric sparklers",
+    "description": "Short electric sparklers for safe, bright spark displays.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 12.40
+  },
+  {
+    "name": "7 cm Colour sparklers",
+    "description": "Short colored sparklers adding vibrancy to celebrations.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 15.60
+  },
+  {
+    "name": "10 cm Electric sparklers",
+    "description": "Medium electric sparklers for a sparkling festive glow.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 18.80
+  },
+  {
+    "name": "10 cm Colour sparklers",
+    "description": "Medium colored sparklers for a colorful light display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 20.20
+  },
+  {
+    "name": "12 cm Electric sparklers",
+    "description": "Electric sparklers for a safe, radiant spark show.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 25.00
+  },
+  {
+    "name": "12 cm Colour sparklers",
+    "description": "Colored sparklers for a vibrant, festive sparkle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 29.60
+  },
+  {
+    "name": "12 cm Green sparklers",
+    "description": "Green sparklers emitting a vivid, colorful glow.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 32.80
+  },
+  {
+    "name": "12 cm Red sparklers",
+    "description": "Red sparklers for a striking, fiery sparkle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 36.00
+  },
+  {
+    "name": "15 cm Electric sparklers",
+    "description": "Longer electric sparklers for an extended spark display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 39.00
+  },
+  {
+    "name": "15 cm Colour sparklers",
+    "description": "Longer colored sparklers for a bright, festive show.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 40.60
+  },
+  {
+    "name": "15 cm Green sparklers",
+    "description": "Long green sparklers for a vibrant light effect.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 42.20
+  },
+  {
+    "name": "15 cm Red sparklers",
+    "description": "Long red sparklers for a bold, sparkling display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 43.60
+  },
+  {
+    "name": "30 cm Electric sparklers",
+    "description": "Extra-long electric sparklers for a prolonged sparkle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 39.00
+  },
+  {
+    "name": "30 cm Colour sparklers",
+    "description": "Extra-long colored sparklers for a dazzling show.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 40.60
+  },
+  {
+    "name": "30 cm Green sparklers",
+    "description": "Extra-long green sparklers for a vibrant display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 42.20
+  },
+  {
+    "name": "30 cm Red sparklers",
+    "description": "Extra-long red sparklers for a striking sparkle.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 43.60
+  },
+  {
+    "name": "50 cm Electric sparklers",
+    "description": "Ultra-long electric sparklers for an extended, radiant show.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 43.60
+  },
+  {
+    "name": "50 cm Colour sparklers",
+    "description": "Ultra-long colored sparklers for a spectacular display.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/5/5e/Sparklers.jpg",
+    "quantity": 1,
+    "price": 179.40
+  },
+  {
+    "name": "Bada Peacock",
+    "description": "Large fountain firework with a peacock-like colorful spark display.",
+    "image": "",
+    "quantity": 1,
+    "price": 452.40
+  },
+  {
+    "name": "Royal Peacock",
+    "description": "Premium fountain firework with a regal, multi-colored spark show.",
+    "image": "",
+    "quantity": 1,
+    "price": 195.00
+  },
+  {
+    "name": "Pop Corn Star",
+    "description": "Fountain firework with popping, star-like spark effects.",
+    "image": "",
+    "quantity": 1,
+    "price": 151.40
+  },
+  {
+    "name": "Tri Colour",
+    "description": "Fountain firework displaying three vibrant colors in sequence.",
+    "image": "",
+    "quantity": 1,
+    "price": 260.60
+  },
+  {
+    "name": "Cocktail Party",
+    "description": "Fountain firework with a mix of colorful spark patterns.",
+    "image": "",
+    "quantity": 1,
+    "price": 109.20
+  },
+  {
+    "name": "Water Queen",
+    "description": "Fountain firework with a cascading, water-like spark effect.",
+    "image": "",
+    "quantity": 1,
+    "price": 85.80
+  },
+  {
+    "name": "Pink Panther",
+    "description": "Fountain firework with pink-hued sparks for a unique display.",
+    "image": "",
+    "quantity": 1,
+    "price": 137.20
+  }
+]
